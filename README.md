@@ -1,4 +1,10 @@
 
+I've edited this!
+
+# Corpora
+=======
+
+
 
 # Version
 So this is the version I editede on the github wokrhop.
@@ -24,27 +30,26 @@ This project is not meant to replace exhaustive APIs -- if you want nouns, and y
 
 ## What is Corpora?
 
- * Corpora is repository of JSON files, meant to be language-neutral. If you want to create an NPM repo or whatever based on this, be my guest, but this repository will remain a collection of data files that can be interpreted by any language that can parse JSON.
- * Corpora is a collection of _small_ files. It is not meant to be an exhaustive source of anything: a list of resources should contain somewhere in the vicinity of 1000 items.
-   * For example, Corpora will not contain any complete "dictionary" style files. Instead we host a sampling of 1000 common nouns, adjectives, and verbs.
-   * Some lists are small enough by nature that we may contain a complete list of things in their category. For example, a list of heavily populated U.S. cities may only have 75 cities and be considered complete.
+- Corpora is repository of JSON files, meant to be language-neutral. If you want to create an NPM repo or whatever based on this, be my guest, but this repository will remain a collection of data files that can be interpreted by any language that can parse JSON.
+- Corpora is a collection of _small_ files. It is not meant to be an exhaustive source of anything: a list of resources should contain somewhere in the vicinity of 1000 items.
+  - For example, Corpora will not contain any complete "dictionary" style files. Instead we host a sampling of 1000 common nouns, adjectives, and verbs.
+  - Some lists are small enough by nature that we may contain a complete list of things in their category. For example, a list of heavily populated U.S. cities may only have 75 cities and be considered complete.
 
 ## List of Corpora-related tools
 
- * [corpora-project](https://www.npmjs.com/package/corpora-project), a Node.js NPM package for accessing corpora data offline.
- * [pycorpora](https://github.com/aparrish/pycorpora), a simple Python interface for corpora
- * [corpora-api](https://github.com/coleww/corpora-api), a Node.js server that offers up the corpora as a JSON API
+- [corpora-project](https://www.npmjs.com/package/corpora-project), a Node.js NPM package for accessing corpora data offline.
+- [pycorpora](https://github.com/aparrish/pycorpora), a simple Python interface for corpora
+- [corpora-api](https://github.com/coleww/corpora-api), a Node.js server that offers up the corpora as a JSON API
 
 ## I have some data, how do I submit?
 
 We accept pull requests to this repository. Some guidelines:
 
- * BY SUBMITTING DATA AS A PULL REQUEST, YOU AGREE TO OUR APPLYING A [CC0](http://creativecommons.org/publicdomain/zero/1.0/) FREE CULTURE LICENSE TO THE DATA, MEANING THAT ANYONE CAN USE THE DATA FOR ANY REASON WITHOUT ATTRIBUTION IN PERPETUITY.
- * Please submit all data as JSON format in a file with a `.json` extension, and please [JSONLint](http://jsonlint.com/) your files before submitting -- also, thanks to [Matt Rothenberg](https://github.com/mroth) we have Travis-CI testing, which will jsonlint your pull request automatically. If you see a test failure notification in your PR after you submit, there's a problem with your JSON!
- * Keep individual files to about 1000 "things" maximum. Fewer than 1000 is fine, too.
- * If you'd like attribution, I'm happy to include your name in this Readme file. Just remember that nobody who uses this data is obligated to include attribution in their own projects.
+- BY SUBMITTING DATA AS A PULL REQUEST, YOU AGREE TO OUR APPLYING A [CC0](http://creativecommons.org/publicdomain/zero/1.0/) FREE CULTURE LICENSE TO THE DATA, MEANING THAT ANYONE CAN USE THE DATA FOR ANY REASON WITHOUT ATTRIBUTION IN PERPETUITY.
+- Please submit all data as JSON format in a file with a `.json` extension, and please [JSONLint](http://jsonlint.com/) your files before submitting -- also, thanks to [Matt Rothenberg](https://github.com/mroth) we have Travis-CI testing, which will jsonlint your pull request automatically. If you see a test failure notification in your PR after you submit, there's a problem with your JSON!
+- Keep individual files to about 1000 "things" maximum. Fewer than 1000 is fine, too.
+- If you'd like attribution, I'm happy to include your name in this Readme file. Just remember that nobody who uses this data is obligated to include attribution in their own projects.
 
 ## Contributors
 
 By [Darius Kazemi and Many Wonderful Contributors](https://github.com/dariusk/corpora/graphs/contributors).
-
